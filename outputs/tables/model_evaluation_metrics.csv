@@ -1,0 +1,4 @@
+Model,Test_Accuracy,Test_Precision,Test_Recall_Sensitivity,Test_Specificity,Test_Macro_F1,Test_Weighted_F1,Test_ROC_AUC,Test_PR_AUC,CV_Accuracy_Mean,CV_Accuracy_Std,CV_ROC_AUC_Mean,CV_ROC_AUC_Std
+Logistic Regression,0.7406,0.7683,0.7368,0.745,0.7401,0.7409,0.8242,0.8624,0.7459,0.0181,0.8126,0.0238
+Decision Tree,0.7344,0.7688,0.7193,0.7517,0.7341,0.7347,0.7875,0.7963,0.724,0.0256,0.7929,0.0189
+Random Forest,0.7469,0.7744,0.7427,0.7517,0.7463,0.7471,0.8571,0.8858,0.7826,0.0181,0.8475,0.0219

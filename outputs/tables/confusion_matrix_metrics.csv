@@ -1,0 +1,4 @@
+Model,True_Negative,False_Positive,False_Negative,True_Positive,Specificity_TNR,Sensitivity_TPR,False_Positive_Rate,False_Negative_Rate
+Logistic Regression,111,38,45,126,0.745,0.7368,0.255,0.2632
+Decision Tree,112,37,48,123,0.7517,0.7193,0.2483,0.2807
+Random Forest,112,37,44,127,0.7517,0.7427,0.2483,0.2573

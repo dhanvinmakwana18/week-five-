@@ -1,0 +1,8 @@
+Attribute,Value
+Total Sample Size (N),1599
+Number of Physicochemical Features,11
+Sensory Quality Score Range,3 to 8
+Standard Quality Count (<6),744 (46.53%)
+Good Quality Count (>=6),855 (53.47%)
+Missing Values Count,0 (100% complete)
+Duplicate Records Count,240 (retained distinct batches)

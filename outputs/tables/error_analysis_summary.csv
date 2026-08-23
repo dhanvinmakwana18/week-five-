@@ -1,0 +1,5 @@
+Classification_Outcome,Count,Percentage_of_Test_Set_%,Mean_Alcohol,Mean_Volatile_Acidity,Mean_Sulphates,Mean_Total_SO2,Mean_Predicted_Prob
+True Negative,112,35.0,9.6,0.633,0.612,63.08,0.241
+True Positive,127,39.69,11.17,0.441,0.71,34.81,0.792
+False Positive (Type I),37,11.56,10.53,0.496,0.639,32.89,0.618
+False Negative (Type II),44,13.75,9.87,0.594,0.632,50.43,0.349

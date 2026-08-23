@@ -1,0 +1,12 @@
+Feature,RF_Gini_Importance,RF_Permutation_Importance_Mean,RF_Permutation_Importance_Std,Logistic_Std_Coefficient,Odds_Ratio,Decision_Tree_Gini
+alcohol,0.2612,0.0775,0.0177,0.8559,2.3534,0.5518
+sulphates,0.1653,0.0258,0.0169,0.4917,1.635,0.2027
+volatile_acidity,0.1244,0.0136,0.0173,-0.5956,0.5512,0.1245
+total_sulfur_dioxide,0.0979,0.0066,0.0111,-0.567,0.5672,0.1141
+fixed_acidity,0.0532,0.002,0.0083,0.2958,1.3442,0.0
+pH,0.0383,-0.0,0.0034,-0.0376,0.9631,0.0069
+free_sulfur_dioxide,0.0415,-0.0013,0.0047,0.2476,1.281,0.0
+density,0.0809,-0.0038,0.008,-0.1565,0.8551,0.0
+residual_sugar,0.0351,-0.0045,0.0072,0.1233,1.1313,0.0
+citric_acid,0.0444,-0.0052,0.0064,-0.2796,0.7561,0.0
+chlorides,0.0577,-0.0108,0.0046,-0.1722,0.8418,0.0

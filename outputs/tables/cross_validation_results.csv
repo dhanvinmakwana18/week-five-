@@ -1,0 +1,4 @@
+Model,CV_Accuracy_Mean,CV_Accuracy_Std,CV_ROC_AUC_Mean,CV_ROC_AUC_Std,CV_F1_Macro_Mean,CV_F1_Macro_Std
+Logistic Regression,0.7459,0.0181,0.8126,0.0238,0.7448,0.0183
+Decision Tree,0.724,0.0256,0.7929,0.0189,0.7227,0.0257
+Random Forest,0.7826,0.0181,0.8475,0.0219,0.7816,0.0181
