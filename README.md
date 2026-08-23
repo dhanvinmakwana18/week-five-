@@ -208,8 +208,9 @@ Recommendations are structured strictly via the **Data Finding $\rightarrow$ Int
 
 1. **Geographic & Varietal Bounds**: Sample is drawn exclusively from Portuguese red Vinho Verde; findings should not be extrapolated to aged reserve wines, sparkling wines, or disparate cultivars without local re-calibration.
 2. **Omission of Complex Phenolics & Aromas**: The 11 measured continuous variables lack gas chromatography volatile aroma profiles, tannins, and anthocyanins.
-3. **Sensory Ground Truth Subjectivity**: Target scores reflect median human panel evaluations, which inherently contain taster fatigue and perceptual subjectivity.
-4. **Correlational Constraint**: Feature importance metrics represent statistical associations and do not prove direct biochemical causality.
+3. **Presence of Duplicate Records**: The 240 duplicate feature/label records cannot be independently verified as repeated measurements from the same production batch due to the absence of batch identifiers, and their retention is acknowledged as a dataset limitation.
+4. **Sensory Ground Truth Subjectivity**: Target scores reflect median human panel evaluations, which inherently contain taster fatigue and perceptual subjectivity.
+5. **Correlational Constraint**: Feature importance metrics represent statistical associations and do not prove direct biochemical causality.
 
 ---
 

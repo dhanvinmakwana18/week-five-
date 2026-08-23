@@ -96,8 +96,10 @@ def clean_and_prepare_data(
         "cleaned_rows": len(df_clean),
         "num_duplicate_rows": num_duplicates,
         "duplicate_retention_rationale": (
-            "Duplicate chemical records retained as they represent distinct production batches "
-            "with identical measured physicochemical characteristics (Cortez et al., 2009)."
+            "The dataset contains 240 duplicate feature/label records. Because the available dataset does not provide a "
+            "unique production-batch identifier, these records cannot be independently verified as repeated measurements "
+            "from the same production batch. Therefore, the duplicate records were retained rather than removed, and this "
+            "decision is acknowledged as a limitation of the dataset."
         ),
         "train_rows": len(train_df),
         "test_rows": len(test_df),

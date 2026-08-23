@@ -5,4 +5,4 @@ Sensory Quality Score Range,3 to 8
 Standard Quality Count (<6),744 (46.53%)
 Good Quality Count (>=6),855 (53.47%)
 Missing Values Count,0 (100% complete)
-Duplicate Records Count,240 (retained distinct batches)
+Duplicate Records Count,240 (retained; unverified batch origin)

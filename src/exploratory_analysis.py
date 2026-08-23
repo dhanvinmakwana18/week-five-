@@ -107,7 +107,7 @@ def run_exploratory_analysis(
         {"Attribute": "Standard Quality Count (<6)", "Value": f"{(df['quality_label'] == 0).sum()} ({((df['quality_label'] == 0).mean() * 100):.2f}%)"},
         {"Attribute": "Good Quality Count (>=6)", "Value": f"{(df['quality_label'] == 1).sum()} ({((df['quality_label'] == 1).mean() * 100):.2f}%)"},
         {"Attribute": "Missing Values Count", "Value": "0 (100% complete)"},
-        {"Attribute": "Duplicate Records Count", "Value": f"{df[PHYSICOCHEMICAL_FEATURES].duplicated().sum()} (retained distinct batches)"}
+        {"Attribute": "Duplicate Records Count", "Value": f"{df[PHYSICOCHEMICAL_FEATURES].duplicated().sum()} (retained; unverified batch origin)"}
     ])
     dataset_summary.to_csv(tables_dir / "dataset_summary.csv", index=False)
 

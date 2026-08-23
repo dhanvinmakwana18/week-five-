@@ -510,9 +510,9 @@ def generate_comprehensive_report(
     add_body_paragraph(
         doc,
         "Data hygiene protocols verified complete integrity across all 1,599 observations, with 0 missing values or structural anomalies detected. "
-        "An inspection of the raw records identified 240 instances sharing identical physicochemical measurements across all 11 features. "
-        "Consistent with domain literature (Cortez et al., 2009), these records reflect distinct production batches exhibiting identical analytical "
-        "profiles and were consequently retained in the analytical corpus."
+        "The dataset contains 240 duplicate feature/label records. Because the available dataset does not provide a unique production-batch identifier, "
+        "these records cannot be independently verified as repeated measurements from the same production batch. Therefore, the duplicate records were "
+        "retained rather than removed, and this decision is acknowledged as a limitation of the dataset."
     )
 
     add_body_paragraph(
@@ -840,7 +840,7 @@ def generate_comprehensive_report(
     add_body_paragraph(
         doc,
         f"DATA FINDING: In holdout test evaluations, Random Forest achieved {best_acc:.2f}% accuracy and {best_auc:.4f} ROC-AUC, correctly identifying {best_sens:.2f}% of Good wines and {best_spec:.2f}% of Standard wines.\n"
-        f"INTERPRETATION: Physicochemical profiling provides substantial automated discriminatory power, but exhibits a ~25% error rate on borderline production batches.\n"
+        f"INTERPRETATION: Physicochemical profiling provides substantial automated discriminatory power, but exhibits a ~25% error rate on borderline wine samples.\n"
         f"STAKEHOLDER IMPLICATION: Direct automated release of wine without human sensory evaluation introduces unacceptable brand risk, but comprehensive manual tasting of all batches is operationally inefficient.\n"
         f"RECOMMENDATION: Establish a Model-Assisted Two-Stage Quality Triage Workflow. Utilize the Random Forest classifier as an automated pre-screening filter at the laboratory stage. High-confidence batches (P > 0.80 or P < 0.20) can be fast-tracked, while borderline batches (0.20 <= P <= 0.80) are prioritized for expert sensory panel review.",
         bold_prefix="Recommendation 1: Two-Stage Quality Screening Architecture\n"
@@ -889,8 +889,9 @@ def generate_comprehensive_report(
 
     add_body_paragraph(
         doc,
-        "1. Laboratory Throughput Optimization: Implementing model-assisted triage allows wineries to reduce expert tasting workload by an estimated "
-        "40–50%, focusing expensive sommelier hours on ambiguous and high-value reserve batches.",
+        "1. Laboratory Throughput Optimization: Model-assisted triage could potentially reduce the number of samples requiring immediate expert review "
+        "by prioritizing cases according to predicted quality and model confidence. However, the present study did not measure operational workload reduction, "
+        "so the magnitude of any efficiency improvement should be evaluated through a prospective validation study.",
         bold_prefix=""
     )
     add_body_paragraph(
